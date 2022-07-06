@@ -4,6 +4,7 @@
   --primary-color: #27aa5a;
   --primary-color-dark: #13b142;
   --accent-color: #FFF8F0;
+  --secundary: #000000;
 }
 
 html {
@@ -187,12 +188,15 @@ form {
   cursor: pointer;
   transition: all 250ms;
   color: var(--primary-color-dark);
+  font-weight: 600;
+
 }
 
 .btn-send-message:hover,
 .btn-send-message:focus {
   background-color: var(--primary-color-dark);
   color: var(--accent-color);
+  font-weight: 600;
 }
 
 footer {
@@ -213,5 +217,10 @@ footer {
   text-decoration: none;
   color: var(--accent-color);
   font-size: 18px;
+}
+.FondoFormulario{
+  background-color: var(--secundary);
+  padding: 4%;
+  border-radius: 6px;
 }
 
