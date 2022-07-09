@@ -4,6 +4,7 @@
   --primary-color: #27aa5a;
   --primary-color-dark: #13b142;
   --accent-color: #FFF8F0;
+  --secundary: #000000;
 }
 
 html {
@@ -187,12 +188,15 @@ form {
   cursor: pointer;
   transition: all 250ms;
   color: var(--primary-color-dark);
+  font-weight: 600;
+
 }
 
 .btn-send-message:hover,
 .btn-send-message:focus {
   background-color: var(--primary-color-dark);
   color: var(--accent-color);
+  font-weight: 600;
 }
 
 footer {
@@ -214,4 +218,51 @@ footer {
   color: var(--accent-color);
   font-size: 18px;
 }
+.FondoFormulario{
+  background-color: var(--secundary);
+  padding: 4%;
+  border-radius: 6px;
+}
+.tech-icons-container {
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  
+}
 
+.tech-icon-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+
+.tech-icon-list-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tech-icon-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.tech-icon-item-end {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+span {
+  margin-top: 5px;
+  color: var(--primary-color-dark);
+}
